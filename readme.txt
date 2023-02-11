@@ -8,7 +8,7 @@ Requires PHP: 7.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin allows quick and easy embedding of PDF viewer to Elementor.
+The "PDFjs Viewer for Elementor" plugin is a powerful tool that allows you to embed PDF files into your Elementor page builder pages with ease. It's designed specifically for Elementor, so you can easily add PDF files to your website without any coding knowledge. With this plugin, you can quickly and easily add PDF viewers to your Elementor pages, making it easier for your visitors to access and view your PDF files.
 
 == Description ==
 
