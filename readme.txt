@@ -1,7 +1,6 @@
 === PDFjs viewer for Elementor ===
 Contributors: Kaz Kadalashvili
-Donate link: https://tareq.co/donate/
-Tags: comments, spam, cache
+Tags: elementor, pdf, embed, pdfjs
 Requires at least: 4.0
 Tested up to: 4.8
 Stable tag: trunk
