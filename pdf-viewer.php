@@ -2,12 +2,12 @@
 /**
  * Plugin Name: PDFjs viewer for Elementor
  * Description: This plugin allows quick and easy embedding of PDF viewer to Elementor.
- * Plugin URI:  https://wordpress.org/plugins/pdfjs-viewer-for-elementor/
+ * Plugin URI:  https://github.com/kazbekkadalashvili/pdfjs-viewer-for-elementor
  * Version:     1.2.1
  * Author:      Kaz Kadalashvili
  * Author URI:  https://kazbek.dev
  * Text Domain: pdfjs-viewer-for-elementor
- * Elementor tested up to: 3.5.0
+ * Elementor tested up to: 3.11.0
  * Elementor Pro tested up to: 3.5.0
  */
 
@@ -48,7 +48,7 @@ final class PDFjs_Viewer_For_Elementor {
 	 * @since 1.2.0
 	 * @var string Minimum PHP version required to run the plugin.
 	 */
-	const MINIMUM_PHP_VERSION = '7.0';
+	const MINIMUM_PHP_VERSION = '7.1';
 
 	/**
 	 * Constructor

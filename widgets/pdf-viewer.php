@@ -153,7 +153,7 @@ class PDFjs_Viewer extends Widget_Base {
 	protected function render() {
 		$settings = $this->get_settings_for_display();
 
-		echo '<iframe width="' . $settings['pdf_dimension']['width'] . '" height="' . $settings['pdf_dimension']['height'] . '" src="' . plugin_dir_url( __DIR__ ) . '/assets/js/pdfjs/web/viewer.html?file=' . $settings['pdf_file']['url'] . '"></iframe>';
+		echo '<iframe width="' . esc_attr($settings['pdf_dimension']['width']) . '" height="' . esc_attr($settings['pdf_dimension']['height']) . '" src="' . esc_url(plugin_dir_url( __DIR__ ) . '/assets/js/pdfjs/web/viewer.html?file=' . $settings['pdf_file']['url']) . '"></iframe>';
 	}
 
 	/**
@@ -167,7 +167,7 @@ class PDFjs_Viewer extends Widget_Base {
 	 */
 	protected function content_template() {
 		?>
-		<iframe src="<?php echo plugin_dir_url( __DIR__ ) . '/assets/js/pdfjs/web/viewer.html?file=' ?>{{{ settings.pdf_file.url }}}" height="{{{ settings.pdf_dimension.height }}}" width="{{{ settings.pdf_dimension.width }}}"></iframe>
+		<iframe src="<?php echo esc_url(plugin_dir_url( __DIR__ ) . '/assets/js/pdfjs/web/viewer.html?file=') ?>{{{ settings.pdf_file.url }}}" height="{{{ settings.pdf_dimension.height }}}" width="{{{ settings.pdf_dimension.width }}}"></iframe>
 		<?php
 	}
 }

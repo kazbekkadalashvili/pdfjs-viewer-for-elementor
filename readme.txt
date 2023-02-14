@@ -1,9 +1,9 @@
 === PDFjs viewer for Elementor ===
 Contributors: Kaz Kadalashvili
 Tags: elementor, pdf, embed, pdfjs
-Requires at least: 4.0
-Tested up to: 4.8
-Stable tag: trunk
+Requires at least: 5.6
+Tested up to: 6.1
+Stable tag: 1.2.1
 Requires PHP: 7.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
