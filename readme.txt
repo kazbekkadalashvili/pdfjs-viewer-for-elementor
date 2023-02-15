@@ -14,9 +14,9 @@ The "PDFjs Viewer for Elementor" plugin is a powerful tool that allows you to em
 
 The "PDFjs Viewer for Elementor" plugin is a powerful tool that allows you to embed PDF files into your Elementor page builder pages with ease. It's designed specifically for Elementor, so you can easily add PDF files to your website without any coding knowledge. With this plugin, you can quickly and easily add PDF viewers to your Elementor pages, making it easier for your visitors to access and view your PDF files.
 
-The plugin is user-friendly and easy to use. You can simply upload your PDF files to your WordPress media library and then add a PDF viewer to your Elementor page using the Elementor widget. The plugin also provides you with a range of customization options, so you can adjust the size, color, and style of your PDF viewer to match your website's look and feel.
+The plugin is user-friendly and easy to use. You can simply upload your PDF files to your WordPress media library and then add a PDF viewer to your Elementor page using the this widget.
 
-Overall, the "PDFjs Viewer for Elementor" plugin is a great solution for anyone who needs to add PDF files to their Elementor pages. With its quick and easy installation process, and its range of customization options, it's the perfect choice for website owners who want to provide their visitors with easy access to their PDF files.
+Compatible with Elementor v3.11
 
 == Installation ==
 
